@@ -23,6 +23,14 @@ def threadController(threadcount):
     except:
         print("Unable to start threads")
 
+def options():
+    try:
+        choice = int(input("How many threads?: "))
+    except:
+        print("Please enter an Int")
+        options()
+    threadController(choice)
+
 def main():
     print("""
     __   _  _____  _____ _______ _______ ______   _____  _     _
@@ -31,11 +39,7 @@ def main():
     """)
     print('\n')
     print("Cover your tracks, Make some noise...\n")
-    try:
-        choice = int(input("How many threads?:"))
-    except:
-        print("Please enter an Int")
-    threadController(choice)
+    options()
 
 
 if __name__ == "__main__":
