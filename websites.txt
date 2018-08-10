@@ -1,0 +1,12 @@
+github.com
+facebook.com
+twitter.com
+google.com
+youtube.com
+wikipedia.org
+amazon.com
+amazon.co.uk
+reddit.com
+netflix.com
+google.co.uk
+twitch.tv
